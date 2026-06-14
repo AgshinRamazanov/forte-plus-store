@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'forte-plus-secret-key-123456';
+const JWT_SECRET = process.env.JWT_SECRET || '10k-endustriyel-secret-key-123456';
 
 export function authenticateToken(req, res, next) {
   const authHeader = req.headers['authorization'];

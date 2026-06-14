@@ -199,7 +199,7 @@ export default function ProductDetail({ productId, onBack, onToast }) {
                   <p><strong>Uygulama Adımları:</strong></p>
                   <ol>
                     <li>Cihazınızın temizlik menüsünü/modunu açın.</li>
-                    <li>Forte Plus temizlik tabletini/sıvısını belirtilen hazneye (grup başlığı, deterjan gözü vb.) ekleyin.</li>
+                    <li>10K Endüstriyel temizlik tabletini/sıvısını belirtilen hazneye (grup başlığı, deterjan gözü vb.) ekleyin.</li>
                     <li>Cihazın otomatik yıkama programını başlatın.</li>
                     <li>Program tamamlandıktan sonra cihazınızı bol temiz su ile en az bir kez durulayın.</li>
                   </ol>

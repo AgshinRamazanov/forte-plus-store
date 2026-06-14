@@ -134,7 +134,7 @@ export default function Checkout({ onBack, onNavigate, onToast }) {
           <div className="success-details-box glass">
             <div className="detail-row-item">
               <span className="label">Sipariş Numarası:</span>
-              <span className="val order-id-highlight">#FP-{orderId}</span>
+              <span className="val order-id-highlight">#10K-{orderId}</span>
             </div>
             <div className="detail-row-item">
               <span className="label">Toplam Tutar:</span>

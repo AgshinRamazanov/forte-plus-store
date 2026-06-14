@@ -5,7 +5,7 @@ export default function CreditCardForm({ cardDetails, onChange, onFocus, onBlur,
   const getCardType = (number) => {
     if (number.startsWith('4')) return 'Visa';
     if (number.startsWith('5')) return 'Mastercard';
-    return 'ForteCard';
+    return '10KCard';
   };
 
   const cardType = getCardType(cardDetails.number);
@@ -47,7 +47,7 @@ export default function CreditCardForm({ cardDetails, onChange, onFocus, onBlur,
               <span className="card-label cvv-label">CVV</span>
             </div>
             <div className="card-back-footer">
-              <span className="card-back-text">Forte Plus Premium Secure Payment</span>
+              <span className="card-back-text">10K Endüstriyel Premium Secure Payment</span>
             </div>
           </div>
 

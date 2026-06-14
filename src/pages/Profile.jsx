@@ -67,7 +67,7 @@ export default function Profile({ onNavigate }) {
             <div className="empty-orders-state glass text-center">
               <Package size={48} className="empty-icon" />
               <h3>Henüz Siparişiniz Bulunmuyor</h3>
-              <p>Forte Plus temizlik ürünleriyle tanışmak ve sipariş oluşturmak için ürün sayfamızı ziyaret edin.</p>
+              <p>10K Endüstriyel temizlik ürünleriyle tanışmak ve sipariş oluşturmak için ürün sayfamızı ziyaret edin.</p>
               <button onClick={() => onNavigate('home')} className="btn btn-primary">Alışverişe Başla</button>
             </div>
           ) : (
@@ -77,7 +77,7 @@ export default function Profile({ onNavigate }) {
                   {/* Order Card Header */}
                   <div className="order-card-header">
                     <div className="meta-left">
-                      <span className="order-id">Sipariş #FP-{order.id}</span>
+                      <span className="order-id">Sipariş #10K-{order.id}</span>
                       <div className="meta-item">
                         <Calendar size={14} />
                         <span>{new Date(order.created_at).toLocaleDateString('tr-TR')}</span>

@@ -41,11 +41,11 @@ export function CartProvider({ children }) {
 
   const applyCoupon = (code) => {
     const upperCode = code.toUpperCase();
-    if (upperCode === 'FORTE10') {
+    if (upperCode === '10K10') {
       setCoupon(upperCode);
       setDiscountPercent(10);
       return { success: true, message: '%10 İndirim Uygulandı!' };
-    } else if (upperCode === 'FORTE20') {
+    } else if (upperCode === '10K20') {
       setCoupon(upperCode);
       setDiscountPercent(20);
       return { success: true, message: '%20 İndirim Uygulandı!' };

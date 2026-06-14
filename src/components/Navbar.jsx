@@ -35,8 +35,8 @@ export default function Navbar({ onSearch, onCartToggle, onAuthToggle, activeTab
       <div className="container nav-container">
         {/* Brand Logo */}
         <div className="logo" onClick={() => { setActiveTab('home'); onSearch(''); setSearchTerm(''); }}>
-          <span className="logo-badge">FP</span>
-          <span className="logo-text">FORTE<span>PLUS</span></span>
+          <span className="logo-badge">10K</span>
+          <span className="logo-text">10K<span>ENDÜSTRİYEL</span></span>
         </div>
 
         {/* Tab Navigation */}

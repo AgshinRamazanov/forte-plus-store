@@ -56,7 +56,7 @@ export default function CartDrawer({ isOpen, onClose, onCheckout }) {
             <div className="empty-cart-state">
               <ShoppingBagIcon />
               <p className="empty-title">Sepetiniz Boş</p>
-              <p className="empty-desc">Forte Plus ürünlerini keşfetmek için kataloğumuza göz atın.</p>
+              <p className="empty-desc">10K Endüstriyel ürünlerini keşfetmek için kataloğumuza göz atın.</p>
               <button onClick={onClose} className="btn btn-primary">Alışverişe Başla</button>
             </div>
           ) : (
@@ -113,7 +113,7 @@ export default function CartDrawer({ isOpen, onClose, onCheckout }) {
                   <input
                     id="coupon-code-input"
                     type="text"
-                    placeholder="İndirim Kodu (örn: FORTE10)"
+                    placeholder="İndirim Kodu (örn: 10K10)"
                     value={couponCode}
                     onChange={(e) => setCouponCode(e.target.value)}
                     className="form-control coupon-input"

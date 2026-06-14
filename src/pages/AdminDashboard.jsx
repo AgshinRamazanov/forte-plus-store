@@ -360,7 +360,7 @@ export default function AdminDashboard({ onToast }) {
               <tbody>
                 {orders.map(order => (
                   <tr key={order.id}>
-                    <td className="bold">#FP-{order.id}</td>
+                    <td className="bold">#10K-{order.id}</td>
                     <td>
                       <div className="customer-cell">
                         <p className="cust-name">{order.user_name}</p>

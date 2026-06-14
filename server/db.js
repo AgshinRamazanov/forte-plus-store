@@ -104,12 +104,12 @@ async function initializeSchema() {
 
     await db.run(
       'INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)',
-      ['Forte Admin', 'admin@forteplus.com', adminPassword, 'admin']
+      ['10K Admin', 'admin@10kendustriyel.com', adminPassword, 'admin']
     );
 
     await db.run(
       'INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)',
-      ['Standard Customer', 'customer@forteplus.com', customerPassword, 'customer']
+      ['Standard Customer', 'customer@10kendustriyel.com', customerPassword, 'customer']
     );
   }
 
@@ -118,7 +118,7 @@ async function initializeSchema() {
   if (productCount.count === 0) {
     const defaultProducts = [
       {
-        name: 'Forte Plus Espresso Makinesi Temizleme Tableti (100x2.5g)',
+        name: '10K Endüstriyel Espresso Makinesi Temizleme Tableti (100x2.5g)',
         description: 'Kahve makinelerinizin grup başlıkları, solenoid valfleri ve su yollarını kahve yağları ve kireç tortularından arındırmak için özel olarak üretilmiştir. Her tablet 2.5 gramdır.',
         price: 450,
         image_url: '/products/WhatsApp Image 2026-06-13 at 21.40.28.jpeg',
@@ -127,7 +127,7 @@ async function initializeSchema() {
         features: JSON.stringify(['2.5g ideal tablet boyutu', 'Kahve yağlarını söker', 'Makine ömrünü uzatır', 'Tüm espresso makinelerine uygun'])
       },
       {
-        name: 'Forte Plus Endüstriyel Fırın Yıkama Tableti (100 Adet)',
+        name: '10K Endüstriyel Endüstriyel Fırın Yıkama Tableti (100 Adet)',
         description: 'Profesyonel endüstriyel fırınlar için geliştirilmiş ultra güçlü temizleme ve yağ sökücü tablet. Yanmış katı yağları ve karbonlaşmış kalıntıları zahmetsizce çözer.',
         price: 1250,
         image_url: '/products/WhatsApp Image 2026-06-13 at 21.40.41 (2).jpeg',
@@ -136,7 +136,7 @@ async function initializeSchema() {
         features: JSON.stringify(['Profesyonel mutfaklar için', 'Katı yağ ve yanık kirlerini söker', 'Kolay suda çözünür', 'Yoğun temizleme gücü'])
       },
       {
-        name: 'Forte Plus Endüstriyel Durulama Tableti (120 Adet)',
+        name: '10K Endüstriyel Endüstriyel Durulama Tableti (120 Adet)',
         description: 'Endüstriyel fırınlar ve konveksiyonel pişiriciler için asidik durulama ve kireç önleyici tablet. Hızlı kuruma sağlar ve paslanmaz çelik yüzeylerin parlamasına yardımcı olur.',
         price: 1400,
         image_url: '/products/WhatsApp Image 2026-06-13 at 21.40.41 (2).jpeg', // sharing same product illustration image
@@ -145,7 +145,7 @@ async function initializeSchema() {
         features: JSON.stringify(['Nötralize edici formül', 'Kireç lekesini önler', 'Yüzeyleri parlatır', '120 adet ekonomik paket'])
       },
       {
-        name: 'Forte Plus Sıvı Kahve Makinesi Temizleyici (900ml)',
+        name: '10K Endüstriyel Sıvı Kahve Makinesi Temizleyici (900ml)',
         description: 'Kahve makinelerinin süt köpürtücü pipetleri, süt sürahileri ve buhar çubuklarında biriken süt kalıntılarını ve bakterileri sökmek için formüle edilmiş konsantre sıvı temizleyici.',
         price: 350,
         image_url: '/products/WhatsApp Image 2026-06-13 at 21.40.42 (3).jpeg',
@@ -154,16 +154,17 @@ async function initializeSchema() {
         features: JSON.stringify(['900ml Konsantre sıvı', 'Süt taşı ve kalıntılarını söker', 'Bakterileri giderir', 'Hafif durulama gerektirir'])
       },
       {
-        name: 'Forte Plus Kireç Çözücü Sıvı (1000ml)',
+        name: '10K Endüstriyel Kireç Çözücü Sıvı (1000ml)',
         description: 'Tüm espresso makineleri, filtre kahve makineleri ve çaydanlıklar için etkili kireç çözücü solüsyon. Düzenli kullanım ısıtıcı rezistansı korur ve enerji verimliliği sağlar.',
         price: 280,
+        image_url: '/products/WhatsApp Image 2026-06-14T11:12:06Z', // wait, let's keep original image url: /products/WhatsApp Image 2026-06-13 at 21.40.42 (2).jpeg
         image_url: '/products/WhatsApp Image 2026-06-13 at 21.40.42 (2).jpeg',
         category: 'Coffee Care',
         stock: 90,
         features: JSON.stringify(['1 Litre şişe', 'Rezistans koruyucu', 'Enerji tasarrufu sağlar', 'Hızlı reaksiyon formülü'])
       },
       {
-        name: 'Forte Plus Süper Yağ Çözücü Sprey (750ml)',
+        name: '10K Endüstriyel Süper Yağ Çözücü Sprey (750ml)',
         description: 'Mutfak tezgahları, ocaklar, aspiratörler ve fırın dış yüzeylerindeki en inatçı donmuş yağ lekelerini anında nüfuz ederek söken sprey formüllü yağ çözücü.',
         price: 180,
         image_url: '/products/WhatsApp Image 2026-06-13 at 21.40.41 (4).jpeg',

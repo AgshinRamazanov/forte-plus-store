@@ -124,7 +124,7 @@ function AppContent() {
             <div className="modal-header">
               <Lock size={28} className="lock-icon" />
               <h3>{authMode === 'login' ? 'Giriş Yap' : 'Kayıt Ol'}</h3>
-              <p>{authMode === 'login' ? 'Forte Plus güvencesiyle sipariş vermek için giriş yapın.' : 'Yeni bir üyelik oluşturun.'}</p>
+              <p>{authMode === 'login' ? '10K Endüstriyel güvencesiyle sipariş vermek için giriş yapın.' : 'Yeni bir üyelik oluşturun.'}</p>
             </div>
 
             <form onSubmit={handleAuthSubmit} className="modal-body">
@@ -240,7 +240,7 @@ function AppContent() {
       <footer className="site-footer">
         <div className="container footer-grid">
           <div className="footer-brand">
-            <h3>FORTE PLUS</h3>
+            <h3>10K ENDÜSTRİYEL</h3>
             <p>Endüstriyel ve ev tipi kahve makineleri, fırınlar ve profesyonel mutfak ekipmanları için hijyen çözümleri.</p>
           </div>
           <div className="footer-links-col">
@@ -253,13 +253,13 @@ function AppContent() {
           </div>
           <div className="footer-contact-col">
             <h4>Bize Ulaşın</h4>
-            <p>E-posta: destek@forteplus.com</p>
+            <p>E-posta: destek@10kendustriyel.com</p>
             <p>Telefon: +90 212 123 45 67</p>
             <p>Adres: Kağıthane, İstanbul, Türkiye</p>
           </div>
         </div>
         <div className="footer-bottom text-center">
-          <p>&copy; {new Date().getFullYear()} Forte Plus. Tüm Hakları Saklıdır.</p>
+          <p>&copy; {new Date().getFullYear()} 10K Endüstriyel. Tüm Hakları Saklıdır.</p>
         </div>
       </footer>
 

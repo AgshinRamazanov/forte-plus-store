@@ -42,7 +42,7 @@ export default function Home({ searchTerm, onSelectProduct, activeTab, setActive
         <div className="container hero-container">
           <div className="hero-content">
             <span className="hero-subtitle">Profesyonel Temizlik Teknolojisi</span>
-            <h1 className="hero-title">Ekipmanlarınız İçin <span>Forte Plus</span> Güvencesi</h1>
+            <h1 className="hero-title">Ekipmanlarınız İçin <span>10K Endüstriyel</span> Güvencesi</h1>
             <p className="hero-desc">
               Kahve makineleri, endüstriyel fırınlar ve profesyonel mutfaklar için geliştirilmiş yüksek performanslı, çevre dostu temizleme tabletleri ve sıvıları.
             </p>
@@ -60,7 +60,7 @@ export default function Home({ searchTerm, onSelectProduct, activeTab, setActive
             </div>
             {/* Visual placeholder using brand gradient */}
             <div className="visual-gradient-box glass">
-              <div className="gradient-brand-title">FORTE PLUS</div>
+              <div className="gradient-brand-title">10K ENDÜSTRİYEL</div>
               <p>Industrial & Domestic Cleaning Tabs</p>
             </div>
           </div>

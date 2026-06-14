@@ -5,7 +5,7 @@ import { getDatabase } from '../db.js';
 import { authenticateToken } from '../middleware/auth.js';
 
 const router = express.Router();
-const JWT_SECRET = process.env.JWT_SECRET || 'forte-plus-secret-key-123456';
+const JWT_SECRET = process.env.JWT_SECRET || '10k-endustriyel-secret-key-123456';
 
 // Register Customer
 router.post('/register', async (req, res) => {

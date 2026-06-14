@@ -37,7 +37,7 @@ export default function ProductCard({ product, onViewDetails }) {
       <div className="product-info-block">
         <h3 className="product-title">{product.name}</h3>
         
-        {/* Rating Row (simulated if no rating average, usually 4.5+ for Forte Plus) */}
+        {/* Rating Row (simulated if no rating average, usually 4.5+ for 10K Endüstriyel) */}
         <div className="product-rating-row">
           <Star className="star-icon filled" size={14} />
           <span className="rating-score">4.8</span>
